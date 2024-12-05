@@ -35,4 +35,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/bangalore-restaurants:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/testBangalore:latest
