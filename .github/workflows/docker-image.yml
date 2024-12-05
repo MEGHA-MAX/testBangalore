@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
+          distribution: 'termurin'
 
     # Step 3: Build the application with Gradle
       - name: Build with Gradle
